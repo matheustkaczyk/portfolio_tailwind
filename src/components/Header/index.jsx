@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { GiHamburgerMenu } from 'react-icons/gi';
 
 function Header() {
   const [isSticky, setIsSticky] = useState(false);
@@ -21,12 +20,28 @@ function Header() {
   }, []);
 
   return (
-    <header className={`fixed mx-auto h-auto w-screen p-5 border-b-2 bg-yellow-400 top-0 left-0 transition-all duration-500 ease-in-out z-50 ${isSticky ? 'h-12' : 'h-16'}`}>
-      <div className='flex flex-row justify-between items-center'>
-        <h1 className="font-mono font-thin text-2xl">Tkaczyk</h1>
-        <GiHamburgerMenu className='text-2xl' />
+    <header className={`fixed w-full top-0 left-0 transition-all duration-500 ease-in-out z-50 ${isSticky ? 'h-12' : 'h-16'}`}>
+      <div className="max-w-7xl mx-auto p-5">
+        <div className='flex flex-row justify-between items-center'>
+          <h1 className="font-mono font-thin text-2xl">Tkaczyk</h1>
+          <ul>
+            <li className='inline-block mx-2'>
+              <a href="#home" className="font-mono font-thin text-xl">Home</a>
+            </li>
+            <li className='inline-block mx-2'>
+              <a href="#about" className="font-mono font-thin text-xl">About</a>
+            </li>
+            <li className='inline-block mx-2'>
+              <a href="#projects" className="font-mono font-thin text-xl">Projects</a>
+            </li>
+            <li className='inline-block mx-2'>
+              <a href="#contact" className="font-mono font-thin text-xl">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
+
   )
 }
 
