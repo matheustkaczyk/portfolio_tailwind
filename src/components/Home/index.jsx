@@ -14,7 +14,7 @@ function Home() {
       <div>
 
       </div>
-      <div className='w-2/5'>
+      <div className='w-2/5 mr-10'>
         <img className='rounded-full w-fit border-amber-400 border-x-2' src={me} alt="Matheus Tkaczyk" />
       </div>
     </section>
