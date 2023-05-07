@@ -1,3 +1,5 @@
+import { AiOutlineArrowDown } from 'react-icons/ai';
+
 import me from '../../assets/images/me.png';
 
 function Home() {
@@ -17,6 +19,7 @@ function Home() {
       <div className='w-2/5 mr-10'>
         <img className='rounded-full w-fit border-amber-400 border-x-2' src={me} alt="Matheus Tkaczyk" />
       </div>
+      <AiOutlineArrowDown className='text-5xl text-yellow-50 absolute bottom-5 animate-bounce text-black' />
     </section>
   );
 }
