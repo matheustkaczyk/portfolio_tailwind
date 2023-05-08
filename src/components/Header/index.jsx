@@ -25,16 +25,16 @@ function Header() {
         <div className='flex flex-row justify-between items-center'>
           <h1 className="font-mono font-thin text-2xl">Tkaczyk</h1>
           <ul>
-            <li className='inline-block mx-2'>
+            <li className='inline-block mx-2 hover:text-orange-100'>
               <a href="#home" className="font-mono font-thin text-xl">Home</a>
             </li>
-            <li className='inline-block mx-2'>
+            <li className='inline-block mx-2 hover:text-orange-100'>
               <a href="#about" className="font-mono font-thin text-xl">About</a>
             </li>
-            <li className='inline-block mx-2'>
+            <li className='inline-block mx-2 hover:text-orange-100'>
               <a href="#projects" className="font-mono font-thin text-xl">Projects</a>
             </li>
-            <li className='inline-block mx-2'>
+            <li className='inline-block mx-2 hover:text-orange-100'>
               <a href="#contact" className="font-mono font-thin text-xl">Contact</a>
             </li>
           </ul>
