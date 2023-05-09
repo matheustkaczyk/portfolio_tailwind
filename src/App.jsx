@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import Home from "./components/Home"
+import Services from "./components/Services"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
         <div className="max-w-7xl">
           <Header />
           <Home />
+          <Services />
         </div>
       </div>
     </div>
