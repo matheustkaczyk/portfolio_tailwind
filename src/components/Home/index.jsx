@@ -23,7 +23,9 @@ function Home() {
       <div className='w-2/5 ml-20'>
         <img className='rounded-full w-fit border-amber-400 border-x-2' src={me} alt="Matheus Tkaczyk" />
       </div>
-      <AiOutlineArrowDown className='text-5xl absolute bottom-5 animate-bounce text-black cursor-pointer' />
+      <a href='#services' className='text-5xl absolute bottom-5 animate-bounce cursor-pointer'>
+        <AiOutlineArrowDown className=' text-black' />
+      </a>
     </section>
   );
 }
