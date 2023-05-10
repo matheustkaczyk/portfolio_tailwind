@@ -4,7 +4,7 @@ import me from '../../assets/images/me.png';
 
 function Home() {
   return (
-    <section className="h-screen flex justify-center items-center">
+    <section id='home' className="h-screen flex justify-center items-center">
       <div className='text-center w-fit font-mono text-5xl leading-snug text-yellow-50'>
         <h1>Hello!</h1>
         <h1>I'm Matheus Tkaczyk</h1>
