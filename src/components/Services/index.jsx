@@ -97,8 +97,6 @@ function Services() {
     },
   ];
 
-  const stats = ['3+ Years of Study', '∞ Lines of code', '1 More cup of coffee']
-
   const sortedTechs = [
     {
       title: 'Backend',
@@ -261,9 +259,9 @@ function Services() {
         <h1 className="text-6xl">How can i help you?</h1>
         <p className="text-2xl pt-2">Here's some tools that i'm most proficient with</p>
       </div>
-      <div className="w-full h-fit bg-neutral-400 bg-opacity-10 rounded mt-5">
+      <div className="w-full h-fit bg-neutral-400 bg-opacity-10 rounded mt-16">
 
-        <div className='flex justify-around items-center p-3'>
+        <div className='flex justify-around items-center p-3 flex-wrap'>
           {
             techs.map((tech, index) => (
               <ImageCard key={index} image={tech.image} id={tech.name} />
@@ -278,16 +276,20 @@ function Services() {
           }
         </div>
       </div>
-      <div className='w-full h-fit bg-white bg-opacity-20 mt-60 text-center'>
+      <div className='w-full h-fit bg-white bg-opacity-20 mt-60 text-center p-20'>
         <h4 className="font-bold text-lg mb-4">More stats</h4>
         <div className='flex justify-center'>
-          {stats.map((stat, index) => (
-            <div key={index} className='flex flex-col items-center p-3 rounded-lg transition-colors'>
-              <p className="text-2xl font-bold">{stat}</p>
-              <p className="text-gray-600 text-sm uppercase tracking-wide mt-1">{index === 0 ? 'Completed' : index === 1 ? 'In progress' : 'Pending'}</p>
-            </div>
-          ))}
+          <div className='flex flex-col items-center p-3 transition-colors border-r-2 border-black'>
+            <p className="text-2xl font-bold">3+ Years of Study</p>
+          </div>
+          <div className='flex flex-col items-center p-3 transition-colors border-r-2 border-black'>
+            <p className="text-2xl font-bold">∞ Lines of code</p>
+          </div>
+          <div className='flex flex-col items-center p-3 transition-colors'>
+            <p className="text-2xl font-bold">1 More cup of coffee</p>
+          </div>
         </div>
+
       </div>
 
     </section>
