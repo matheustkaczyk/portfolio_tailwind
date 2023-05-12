@@ -6,13 +6,9 @@ function App() {
 
   return (
     <div className="App bg-yellow-400">
-      <div className="flex justify-center">
-        <div className="max-w-7xl">
-          <Header />
-          <Home />
-          <Services />
-        </div>
-      </div>
+      <Header />
+      <Home />
+      <Services />
     </div>
   );
 }
