@@ -4,7 +4,7 @@ import me from '../../assets/images/me.png';
 
 function Home() {
   return (
-    <section id='home' className="h-screen flex justify-center items-center">
+    <section id='home' className="h-screen flex justify-center items-center ml-auto mr-auto">
       <div className='text-center w-fit font-mono text-5xl leading-snug text-yellow-50'>
         <h1>Hello!</h1>
         <h1>I'm Matheus Tkaczyk</h1>
@@ -21,7 +21,7 @@ function Home() {
       <div>
       </div>
       <div className='w-2/5 ml-20'>
-        <img className='rounded-full w-fit border-amber-400 border-x-2' src={me} alt="Matheus Tkaczyk" />
+        <img className='rounded-full w-4/5 border-amber-400 border-x-2' src={me} alt="Matheus Tkaczyk" />
       </div>
       <a href='#services' className='text-5xl absolute bottom-5 animate-bounce cursor-pointer'>
         <AiOutlineArrowDown className=' text-black' />
