@@ -20,8 +20,8 @@ function Header() {
   }, []);
 
   return (
-    <header className={`fixed w-full top-0 left-0 transition-all duration-500 bg-opacity-20 bg-gray-400 ease-in-out z-50 ${isSticky ? 'h-12' : 'h-16'}`}>
-      <div className="max-w-7xl mx-auto p-5">
+    <header className={`sticky w-full top-0 left-0 transition-all duration-500 bg-opacity-5 bg-gray-400 ease-in-out z-50 ${isSticky ? 'h-12' : 'h-16'}`}>
+      <div className="max-w-7xl mx-auto p-5 text-white">
         <div className='flex flex-row justify-between items-center h-auto'>
           <h1 className="font-mono font-thin text-2xl">Tkaczyk</h1>
           <ul>

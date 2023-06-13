@@ -254,28 +254,30 @@ function Services() {
   }
 
   return (
-    <section id="services" className="h-screen pt-32 ml-auto mr-auto flex flex-col items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-6xl">How can i help you?</h1>
-        <p className="text-2xl pt-2">Here's some tools that i'm most proficient with</p>
-      </div>
-      <div className="h-fit bg-neutral-400 bg-opacity-10 rounded mt-16">
-        <div className='flex justify-around items-center p-3 flex-wrap'>
-          {
-            techs.map((tech, index) => (
-              <ImageCard key={index} image={tech.image} id={tech.name} />
-            ))
-          }
+    <section id="services" className="h-screen pt-32 ml-auto mr-auto flex flex-col items-center justify-center text-white">
+      <div className='w-auto h-4/5'>
+        <div className="text-center">
+          <h1 className="text-6xl">How can i help you?</h1>
+          <p className="text-2xl pt-2">Here's some tools that i'm most proficient with</p>
         </div>
-        <div className='h-full flex justify-center flex-wrap'>
-          {
-            skills.map((skill, index) => (
-              <TextCard key={index} title={skill.title} text={skill.text} onHover={() => onHover(skill.title)} onLeave={() => onLeave(skill.title)} />
-            ))
-          }
+        <div className="h-fit bg-neutral-400 bg-opacity-10 rounded mt-16">
+          <div className='flex justify-around items-center p-3 flex-wrap'>
+            {
+              techs.map((tech, index) => (
+                <ImageCard key={index} image={tech.image} id={tech.name} />
+              ))
+            }
+          </div>
+          <div className='h-full flex justify-center flex-wrap'>
+            {
+              skills.map((skill, index) => (
+                <TextCard key={index} title={skill.title} text={skill.text} onHover={() => onHover(skill.title)} onLeave={() => onLeave(skill.title)} />
+              ))
+            }
+          </div>
         </div>
       </div>
-      <div className='w-full h-full bg-yellow-500 text-black bg-opacity-75 mt-60 text-center p-20 flex flex-col justify-center items-center'>
+      <div className='w-full h-1/5 bg-slate-900 text-white bg-opacity-75 mt-60 text-center p-20 flex flex-col justify-center items-center'>
         <div className='flex justify-center'>
           <div className='flex flex-col items-center p-5 transition-colors border-r-2 border-black'>
             <p className="text-3xl font-bold">3+ Years of Study</p>
