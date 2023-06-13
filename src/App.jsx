@@ -5,7 +5,7 @@ import Services from "./components/Services"
 function App() {
 
   return (
-    <div className="App bg-yellow-400">
+    <div className="App bg-main">
       <Header />
       <Home />
       <Services />
