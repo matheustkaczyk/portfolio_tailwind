@@ -1,7 +1,7 @@
 function Header() {
 
   return (
-    <header className={`fixed w-full top-0 left-0 transition-all text-white duration-500 bg-opacity-5 bg-gray-400 ease-in-out z-50`}>
+    <header className={`w-full top-0 left-0 transition-all text-white duration-500 bg-opacity-5 bg-gray-400 ease-in-out z-50`}>
       <div className="max-w-7xl mx-auto p-5">
         <div className='flex flex-row justify-between items-center h-auto'>
           <h1 className="font-mono font-thin text-2xl cursor-pointer">Tkaczyk</h1>
@@ -14,9 +14,6 @@ function Header() {
             </li>
             <li className='inline-block mx-2 hover:text-orange-100'>
               <a href="#projects" className="font-mono font-thin text-xl">Projects</a>
-            </li>
-            <li className='inline-block mx-2 hover:text-orange-100'>
-              <a href="#contact" className="font-mono font-thin text-xl">Contact</a>
             </li>
           </ul>
         </div>
