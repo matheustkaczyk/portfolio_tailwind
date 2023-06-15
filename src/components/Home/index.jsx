@@ -1,14 +1,24 @@
 import { AiOutlineArrowDown } from 'react-icons/ai';
 
+import ReactTypingEffect from 'react-typing-effect';
+
 import me from '../../assets/images/me.png';
 
 function Home() {
+  const typingText = ['Front-end developer!', 'Back-end developer!', 'FullStack developer!'];
   return (
     <section id='home' className="h-screen flex justify-center items-center mx-auto">
       <div className='text-center w-fit font-mono text-5xl leading-snug text-yellow-50'>
         <h1>Hello! <span role='img' aria-label="waving">👋</span></h1>
         <h1>I'm Matheus Tkaczyk</h1>
-        <h4>Fullstack developer</h4>
+        <ReactTypingEffect
+          text={typingText}
+          speed={80}
+          eraseDelay={1000}
+          eraseSpeed={100}
+          typingDelay={80}
+          className='typer'
+        />
         <div className='flex justify-start mt-5 text-3xl'>
           <a href="https://www.linkedin.com/in/matheustkaczykribeiro/" target='__blank' className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded text-xl">
             Connect with me!
