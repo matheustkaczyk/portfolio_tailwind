@@ -277,7 +277,7 @@ function Services() {
           </div>
         </div>
       </div>
-      <div className='w-full h-1/5 bg-slate-900 text-white bg-opacity-75 mt-60 text-center p-20 flex flex-col justify-center items-center'>
+      <div id="projects" className='w-full h-1/5 bg-slate-900 text-white bg-opacity-75 mt-60 text-center p-20 flex flex-col justify-center items-center'>
         <div className='flex justify-center'>
           <div className='flex flex-col items-center p-5 transition-colors border-r-2 border-black'>
             <p className="text-3xl font-bold">3+ Years of Study</p>
