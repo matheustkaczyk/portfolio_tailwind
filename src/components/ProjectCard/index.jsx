@@ -1,6 +1,6 @@
 const ProjectCard = ({ project }) => {
   return (
-    <div className="max-w-xs rounded overflow-hidden shadow-lg bg-white m-5">
+    <div className="max-w-xs rounded overflow-hidden shadow-lg bg-white m-5 transform hover:scale-105 transition-all duration-300">
       <div className="flex flex-col w-full h-full">
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">{project.name}</div>

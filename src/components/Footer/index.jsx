@@ -2,7 +2,7 @@ import { AiFillLinkedin, AiFillGithub, AiOutlineWhatsApp } from "react-icons/ai"
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-900 text-white py-4 w-screen">
+    <footer className="bg-opacity-5 bg-gray-400 text-white py-4 w-screen">
       <div className="container mx-auto flex items-center justify-around px-4">
         <div>
           <p className="font-bold">&copy; {new Date().getFullYear()} - Matheus Tkaczyk Ribeiro</p>
