@@ -4,17 +4,20 @@ import me from '../../assets/images/me.png';
 
 function Home() {
   return (
-    <section id='home' className="h-screen flex justify-center items-center ml-auto mr-auto">
+    <section id='home' className="h-screen flex justify-center items-center mx-auto">
       <div className='text-center w-fit font-mono text-5xl leading-snug text-yellow-50'>
-        <h1>Hello!</h1>
+        <h1>Hello! <span role='img' aria-label="waving">👋</span></h1>
         <h1>I'm Matheus Tkaczyk</h1>
         <h4>Fullstack developer</h4>
         <div className='flex justify-start mt-5 text-3xl'>
-          <a href="https://www.linkedin.com/in/matheustkaczykribeiro/" target='__blank' className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded text-2xl">
+          <a href="https://www.linkedin.com/in/matheustkaczykribeiro/" target='__blank' className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded text-xl">
             Connect with me!
           </a>
-          <a href="https://github.com/matheustkaczyk" target="_blank" rel="noopener noreferrer" className="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded ml-2">
+          <a href="https://github.com/matheustkaczyk" target="_blank" rel="noopener noreferrer" className="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded ml-2 text-xl">
             Go to GitHub
+          </a>
+          <a href="https://wa.link/4dkaii" target="_blank" rel="noopener noreferrer" className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-2 text-xl">
+            WhatsApp
           </a>
         </div>
       </div>
