@@ -5,3 +5,8 @@
 .hovering {
   filter: unset;
 }
+
+.typer div {
+  font-size: smaller;
+  color: grey;
+}
