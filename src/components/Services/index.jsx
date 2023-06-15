@@ -260,7 +260,7 @@ function Services() {
           <h1 className="text-6xl">How can i help you?</h1>
           <p className="text-2xl pt-2">Here's some tools that i'm most proficient with</p>
         </div>
-        <div className="h-fit bg-neutral-400 bg-opacity-10 rounded mt-16">
+        <div className="h-fit bg-neutral-400 bg-opacity-10 rounded mt-16 p-8">
           <div className='flex justify-around items-center p-3 flex-wrap'>
             {
               techs.map((tech, index) => (
