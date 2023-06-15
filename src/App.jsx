@@ -2,6 +2,7 @@ import Header from "./components/Header"
 import Home from "./components/Home"
 import Projects from "./components/Projects";
 import Services from "./components/Services"
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <Services />
       <Projects />
+      <Footer />
     </div>
   );
 }
