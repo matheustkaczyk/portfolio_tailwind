@@ -43,10 +43,11 @@ const Projects = () => {
     <section className="w-screen h-screen pt-32 ">
       <h1 className="text-center text-white text-6xl p-6">Projects</h1>
       <div className='flex justify-center items-center'>
-        <div className='container'>
-          <p className='text-center text-white text-2xl m-3'>
-            Here's a selection of some projects I've created. You can explore them by clicking on the respective buttons below. However, this is just a glimpse of my work. My GitHub profile contains numerous projects, including a wide range of process automation projects.
+        <div className='container w-4/5'>
+          <p className='text-white text-2xl m-3 text-justify'>
+            Here's a selection of some frontend projects that I've created. You can explore them by clicking on the respective buttons below. However, this is just a glimpse of my work. My GitHub profile contains numerous projects, including a wide range of backend and process automation projects.
           </p>
+          <hr />
           <div className='flex flex-wrap justify-center mt-10'>
             {
               projects.map((project, index) => (
