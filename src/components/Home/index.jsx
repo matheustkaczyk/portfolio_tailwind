@@ -34,7 +34,7 @@ function Home() {
       <div>
       </div>
       <div className='w-2/5 ml-20 max-w-xl'>
-        <img className='rounded-full w-4/5 border-y-white border-x-2' src={me} alt="Matheus Tkaczyk" />
+        <img className='rounded-full w-4/5 border-y-white border-x-2 right-fadein' src={me} alt="Matheus Tkaczyk" />
       </div>
       <a href='#services' className='text-5xl absolute bottom-5 animate-bounce cursor-pointer'>
         <AiOutlineArrowDown className=' text-white' />
