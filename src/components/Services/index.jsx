@@ -254,13 +254,13 @@ function Services() {
   }
 
   return (
-    <section id="services" className="h-screen pt-32 ml-auto mr-auto flex flex-col items-center justify-center text-white">
-      <div className='w-auto h-4/5'>
-        <div className="text-center">
-          <h1 className="text-6xl">How can i help you?</h1>
-          <p className="text-2xl pt-2">Here's some tools that i'm most proficient with</p>
+    <section id="services" className="pt-4 mx-auto flex flex-col items-center justify-center text-white">
+      <div className='w-auto h-4/5 xsm:w-auto xsm:h-auto'>
+        <div className="text-center xsm:px-2">
+          <h1 className="lg:text-6xl xsm:text-3xl">How can i help you?</h1>
+          <p className="lg:text-2xl pt-2 xsm:text-xl">Here's some tools that i'm most proficient with</p>
         </div>
-        <div className="h-fit bg-neutral-400 bg-opacity-10 rounded mt-16 p-8">
+        <div className="h-fit bg-neutral-400 bg-opacity-10 rounded mt-16 p-8 xsm:h-fit sm:h-fit md:h-4/5 lg:h-4/5">
           <div className='flex justify-around items-center p-3 flex-wrap'>
             {
               techs.map((tech, index) => (
@@ -277,7 +277,7 @@ function Services() {
           </div>
         </div>
       </div>
-      <div id="projects" className='w-full h-1/5 bg-slate-900 text-white bg-opacity-75 mt-60 text-center p-20 flex flex-col justify-center items-center'>
+      <div id="projects" className='w-full h-fit bg-slate-900 text-white bg-opacity-75 mt-60 text-center p-10 flex flex-cl justify-center items-center xsm:hidden sm:hidden md:block lg:block'>
         <div className='flex justify-center'>
           <div className='flex flex-col items-center p-5 transition-colors border-r-2 border-white'>
             <p className="text-3xl font-bold">3+ Years of Study</p>
