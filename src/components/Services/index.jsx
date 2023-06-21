@@ -254,13 +254,13 @@ function Services() {
   }
 
   return (
-    <section id="services" className="pt-4 mx-auto flex flex-col items-center justify-center text-white">
+    <section id="services" className="pt-4 mx-auto flex flex-col items-center justify-center text-white md:h-fit lg:h-screen">
       <div className='w-auto h-4/5 xsm:w-auto xsm:h-auto'>
         <div className="text-center xsm:px-2">
           <h1 className="lg:text-6xl xsm:text-3xl">How can i help you?</h1>
           <p className="lg:text-2xl pt-2 xsm:text-xl">Here's some tools that i'm most proficient with</p>
         </div>
-        <div className="h-fit bg-neutral-400 bg-opacity-10 rounded mt-16 p-8 xsm:h-fit sm:h-fit md:h-4/5 lg:h-4/5">
+        <div className="h-fit bg-neutral-400 bg-opacity-10 rounded mt-16 p-8 xsm:h-fit sm:h-fit md:h-fit lg:h-fit">
           <div className='flex justify-around items-center p-3 flex-wrap'>
             {
               techs.map((tech, index) => (
