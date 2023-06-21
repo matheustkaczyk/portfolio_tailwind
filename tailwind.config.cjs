@@ -8,6 +8,9 @@ module.exports = {
       colors: {
         'main': '#0F1117',
       },
+      screens: {
+        'xsm': '412px'
+      }
     },
   },
   plugins: [],
