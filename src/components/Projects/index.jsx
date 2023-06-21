@@ -40,7 +40,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className="w-screen h-screen pt-32 ">
+    <section className="w-screen h-auto pt-32 ">
       <h1 className="text-center text-white text-6xl p-6">Projects</h1>
       <div className='flex justify-center items-center'>
         <div className='container w-4/5'>
